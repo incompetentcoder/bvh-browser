@@ -320,7 +320,7 @@ int main(int argc, char* argv[]) {
 	glEnable(GL_DEPTH_TEST);
 
 	// Load font
-	View::setFont("/usr/share/fonts/truetype/DejaVuSans.ttf", 16);	// ick - seems there is no search.
+	View::setFont("font.ttf", 12);	// ick - seems there is no search.
 
 	// Set up views
 	createViews();
